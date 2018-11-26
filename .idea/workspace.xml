@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e21b0b43-0fab-4990-ab2f-5d68dda47518" name="Default Changelist" comment="" />
+    <list default="true" id="e21b0b43-0fab-4990-ab2f-5d68dda47518" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/project/JudgeInCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CustomizedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/CustomizedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Judge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Judge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Judgment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Judgment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/CustomizedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/CustomizedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Judge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Judgment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Judgment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,64 +57,80 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1495840728">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="form" value="1" />
+          <entry key="java" value="4" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="GUI_DESIGNER_FORM" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="JSON" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="220">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="440">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#532#1130#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/Judgment.java">
+        <entry file="file://$PROJECT_DIR$/src/project/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="280">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="method#substantiation#0;class#Command#0" />
+                <element signature="method#getJudgment#0;class#Command#0" />
+                <element signature="e#1771#1772#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,16 +139,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/JudgeInCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/Judgment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/judgments-348.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret column="4814" selection-start-column="4814" selection-end-column="4814" />
             </state>
           </provider>
         </entry>
@@ -133,6 +199,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>caseDate</find>
+      <find>judgmentDate</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -142,9 +217,10 @@
         <option value="$PROJECT_DIR$/src/project/MyGUIForm.java" />
         <option value="$PROJECT_DIR$/src/project/Main.java" />
         <option value="$PROJECT_DIR$/src/project/CustomizedList.java" />
-        <option value="$PROJECT_DIR$/src/project/Judge.java" />
-        <option value="$PROJECT_DIR$/src/project/Command.java" />
         <option value="$PROJECT_DIR$/src/project/Judgment.java" />
+        <option value="$PROJECT_DIR$/src/project/Judge.java" />
+        <option value="$PROJECT_DIR$/src/project/JudgeInCase.java" />
+        <option value="$PROJECT_DIR$/src/project/Command.java" />
       </list>
     </option>
   </component>
@@ -196,7 +272,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543166639322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543240050914" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,26 +325,28 @@
       <workItem from="1543161830656" duration="190000" />
       <workItem from="1543162102028" duration="168000" />
       <workItem from="1543162314620" duration="3547000" />
+      <workItem from="1543232017067" duration="819000" />
+      <workItem from="1543236782001" duration="1357000" />
+      <workItem from="1543239441109" duration="614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3905000" />
+    <option name="totallyTimeSpent" value="6695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26307365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -277,6 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32896176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,25 +404,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/project/GuiForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/GuiForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/GuiForm.java" />
+    <entry file="file://$PROJECT_DIR$/src/project/GuiForm.form" />
     <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/judgments-995.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -352,74 +420,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/judgments-348.json">
+    <entry file="file://$PROJECT_DIR$/src/project/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret column="2998" lean-forward="true" selection-start-column="2998" selection-end-column="2998" />
+        <state relative-caret-position="220">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
+    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="440">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/judgments-348.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret column="4814" selection-start-column="4814" selection-end-column="4814" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#532#1130#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="47">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Judgment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        <state relative-caret-position="1040">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/JudgeInCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="method#substantiation#0;class#Command#0" />
+            <element signature="method#getJudgment#0;class#Command#0" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,9 +8,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-/// TODO: dokladna obsluga strzalek
 
 public class CustomizedList {
+
     private List<String> list = new LinkedList<>();
     private int index = -1;
     private Command commands = new Command();
@@ -37,19 +37,12 @@ public class CustomizedList {
     public String enter(String arg) {
             list.add(arg);
             index = list.size();
-
+        arg = arg.trim(); // removing spaces in the beginning and in the end
+        arg = arg.replaceAll("( )+", " ");  /// changing multiple spaces into one
         Scanner scanner = new Scanner(arg);
-        scanner.useDelimiter("/");
-        StringBuilder result = new StringBuilder();
+        scanner.useDelimiter(" ");
 
-        if(scanner.next().equals("judgement")) {
-            while(scanner.hasNextInt()){
-                result.append(commands.getJudgment(scanner.nextInt()) + '\n');
-            }
-            return result.toString();
-        }
-        return "";
-
+        return commands.realize(scanner);
     }
 
 }

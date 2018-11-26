@@ -1,29 +1,31 @@
 package project;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
+
+
+//// wykorzystac klase judge do przechowywania wysztsich sedziow razem z ich nuemrem wyrokow
+//// zmienic metody equals aby sedziowie z sprawy oraz nie ze sprawy wiedzieli ze sa tymi smsymi
 
 public class Command {
     private List<Judgment> judgmentList = new ReadFiles().read();
     private Map<Long, Judgment> judgmentMap = new HashMap<>();
-    private Map<String, Judge> judgesMap = new HashMap<>();
-    private boolean sentencesGenerated = false;
-
+    private TreeMap<Integer,Judge> judges = new TreeMap<>();
 
     public Command() {
         for (Judgment element : judgmentList) {
             judgmentMap.put(element.id, element);
-        }
-    }
 
-    public String substantiation(long signature) {
+            }
+        }
+
+    private String substantiation(long signature) {
         return judgmentMap.containsKey(signature) ? judgmentMap.get(signature).textContent :
                 "Brak orzeczenia o sygnaturze: " + signature;
     }
 
 
-    public String getJudgment(long signature) {
+    private String getJudgment(long signature) {
         if (judgmentMap.containsKey(signature)) {
 
             StringBuilder str = new StringBuilder();
@@ -53,6 +55,17 @@ public class Command {
 
     private int nbOfSentences(String name){
         return 0;
+    }
+
+
+    public String realize(Scanner input){
+        switch(input.next()){
+            case "judgment":
+                return getJudgment(input.nextInt());
+            case "substantion" :
+                return substantiation(input.nextInt());
+        }
+        return "";
     }
 
 

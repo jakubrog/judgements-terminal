@@ -3,12 +3,12 @@ package project;
 
 public class Judge {
     private String name;
-    private String function;
-    private  String [] specialRoles;
+    private int nbOfCases = 0;
 
     public Judge(String name){
         this.name = name;
     }
+
     @Override
     public boolean equals(Object other){
         if(!(other instanceof Judge))
@@ -16,11 +16,13 @@ public class Judge {
         return name.equals(((Judge) other).name);
     }
 
-    public String getName() {
-        return name;
+    public void addCase(){
+        nbOfCases++;
     }
 
-    public String getFunction() {
-        return function;
+    public int getNbOfCases(){return nbOfCases;}
+
+    public String getName() {
+        return name;
     }
 }

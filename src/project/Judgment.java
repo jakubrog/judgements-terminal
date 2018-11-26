@@ -12,7 +12,7 @@ public class Judgment {
 
         public String judgmentType;
 
-        public List<Judge> judges;
+        public List<JudgeInCase> judges;
 
         public String textContent;
 
@@ -32,7 +32,7 @@ public class Judgment {
 
         public String getJudges(){
             StringBuilder result = new StringBuilder();
-            for(Judge judge : judges)
+            for(JudgeInCase judge : judges)
                 result.append(judge);
             return result.toString();
         }
@@ -52,18 +52,19 @@ public class Judgment {
             project.Judgment that = (project.Judgment) other;
             return this.id == that.id;
         }
-
+        public int getMonth(){
+            return 0;
+            //int x = judgmentDate.substring(5,7).parseInt;
+        }
 
         public boolean containsJudge(String name){
-            for(Judge judge : judges)
+            for(JudgeInCase judge : judges)
                 if(judge.equals(name))
                     return true;
             return false;
         }
 
-        public int getMonth(){
-            Scanner scanner = new Scanner(judgmentDate);
-        }
+
 
 }
 
