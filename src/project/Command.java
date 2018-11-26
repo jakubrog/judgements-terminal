@@ -10,14 +10,45 @@ import java.util.*;
 public class Command {
     private List<Judgment> judgmentList = new ReadFiles().read();
     private Map<Long, Judgment> judgmentMap = new HashMap<>();
-    private TreeMap<Integer,Judge> judges = new TreeMap<>();
+    private LinkedList<Judge> judges = new LinkedList<>();
+
 
     public Command() {
+        boolean find;
+
         for (Judgment element : judgmentList) {
+
             judgmentMap.put(element.id, element);
+
+            for(JudgeInCase judge : element.judges){
+
+                find = false;
+
+                for(Judge judge1 : judges) {
+                    if (judge1.getName().equals(judge.getName())) {
+                        judge1.addCase();
+                        find = true;
+                        break;
+                    }
+                }
+                if(!find)
+                    judges.add(new Judge(judge.getName()));
 
             }
         }
+
+        judges.sort(new Comparator<Judge>() {
+            @Override
+            public int compare(Judge o1, Judge o2) {
+                if(o1.getNbOfCases() < o2.getNbOfCases())
+                    return 1;
+                if(o1.getNbOfCases() > o2.getNbOfCases())
+                    return -1;
+                else return 0;
+            }});
+        System.out.print(judges.get(10).getNbOfCases());
+    }
+
 
     private String substantiation(long signature) {
         return judgmentMap.containsKey(signature) ? judgmentMap.get(signature).textContent :
@@ -41,7 +72,7 @@ public class Command {
 
             str.append("\nJudges: \n");
 
-            for (Judge judge : judgment.judges) {
+            for (JudgeInCase judge : judgment.judges) {
                 str.append(judge.getName() + '\t');
                 if (judge.getFunction()!= null)
                     str.append('\t' + judge.getFunction() + '\n');

@@ -8,9 +8,11 @@ public class JudgeInCase {
 
         @Override
         public boolean equals(Object other){
-            if(!(other instanceof Judge)|| other instanceof JudgeInCase))
-                return false;
-            return name.equals(((project.JudgeInCase) other).name);
+            if((other instanceof Judge))
+                return name.equals(((Judge) other).getName());
+            if((other instanceof JudgeInCase))
+                return name.equals(((JudgeInCase) other).getName());
+            return false;
         }
 
         public String getName() {
