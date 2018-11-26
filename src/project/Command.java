@@ -4,9 +4,6 @@ import java.util.*;
 
 
 
-//// wykorzystac klase judge do przechowywania wysztsich sedziow razem z ich nuemrem wyrokow
-//// zmienic metody equals aby sedziowie z sprawy oraz nie ze sprawy wiedzieli ze sa tymi smsymi
-
 public class Command {
     private List<Judgment> judgmentList = new ReadFiles().read();
     private Map<Long, Judgment> judgmentMap = new HashMap<>();
