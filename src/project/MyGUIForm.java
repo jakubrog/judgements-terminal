@@ -19,6 +19,7 @@ public class MyGUIForm extends JFrame {
         setSize(new Dimension(900, 700));
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        resultArea.setContentType("text/html");
         resultArea.setEditable(false);
 
         commandField.addKeyListener(new KeyAdapter() {

@@ -2,7 +2,8 @@ package project;
 
 import jdk.nashorn.internal.parser.Scanner;
 
-import java.util.List;
+import java.time.Month;
+import java.util.*;
 
 public class Judgment {
 
@@ -19,6 +20,7 @@ public class Judgment {
         public List<Regulation> referencedRegulations;
 
         public String judgmentDate;
+
 
         public Judgment(long signature){
             this.id = signature;
@@ -52,9 +54,8 @@ public class Judgment {
             project.Judgment that = (project.Judgment) other;
             return this.id == that.id;
         }
-        public int getMonth(){
-            return 0;
-            //int x = judgmentDate.substring(5,7).parseInt;
+        public Month getMonth(){
+            return Month.of(Integer.parseInt(judgmentDate.substring(5,7)));
         }
 
         public boolean containsJudge(String name){
@@ -63,8 +64,6 @@ public class Judgment {
                     return true;
             return false;
         }
-
-
 
 }
 
