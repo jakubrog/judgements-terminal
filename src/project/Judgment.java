@@ -21,6 +21,8 @@ public class Judgment {
 
         public String judgmentDate;
 
+        public CourtCases [] courtCases;
+
 
         public Judgment(long signature){
             this.id = signature;
@@ -49,10 +51,10 @@ public class Judgment {
         public boolean equals(Object other){
             if(other == this)
                 return true;
-            if(!(other instanceof project.Judgment))
+            if(!(other instanceof Judgment))
                 return false;
-            project.Judgment that = (project.Judgment) other;
-            return this.id == that.id;
+            project.Judgment that = (Judgment) other;
+            return this.getSignature().equals(that.getSignature());
         }
         public Month getMonth(){
             return Month.of(Integer.parseInt(judgmentDate.substring(5,7)));
@@ -63,6 +65,12 @@ public class Judgment {
                 if(judge.equals(name))
                     return true;
             return false;
+        }
+
+        public String getSignature(){
+            if(courtCases.length == 0)
+                return null;
+            return courtCases[0].caseNumber;
         }
 
 }

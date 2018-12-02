@@ -5,98 +5,41 @@ import java.time.Month;
 import java.util.*;
 
 
-
 public class Command {
     private List<Judgment> judgmentList = new ReadFiles().read();
-    private Map<Long, Judgment> judgmentMap = new HashMap<>();
-    private LinkedHashMap<String, Judge> judgesMap = new LinkedHashMap<>();
-    List<Judge> judgeList = new LinkedList<>();
+
+    private Map<String, Judgment> judgmentMap = new HashMap<>();
+
+    /**
+     * Dodac funcke która obliczy które ustawy były kiedy używane
+     */
+
 
     public Command() {
-        boolean find;
-
-        for (Judgment element : judgmentList) {
-
-            judgmentMap.put(element.id, element);
-
-            for(JudgeInCase judge : element.judges){
-
-                find = false;
-
-                for(Judge judge1 : judgeList) {
-                    if (judge1.getName().equals(judge.getName())) {
-                        judge1.addCase();
-                        find = true;
-                        break;
-                    }
-                }
-                if(!find) {
-                    Judge judgeToAdd = new Judge(judge.getName());
-                    judgeList.add(judgeToAdd);
-                }
-            }
-        }
-
-        judgeList.sort(new Comparator<Judge>() {
-            @Override
-            public int compare(Judge o1, Judge o2) {
-                if(o1.getNbOfCases() < o2.getNbOfCases())
-                    return 1;
-                if(o1.getNbOfCases() > o2.getNbOfCases())
-                    return -1;
-                else return 0;
-            }});
-
-        for(Judge judge : judgeList)
-            judgesMap.put(judge.getName() ,judge);
-
+        for (Judgment element : judgmentList)
+            judgmentMap.put(element.getSignature(), element);
     }
 
 
-
-    private String substantiation(long signature) {
+    private String substantiation(String signature) {
         return judgmentMap.containsKey(signature) ? judgmentMap.get(signature).textContent :
                 "Brak orzeczenia o sygnaturze: " + signature;
     }
-    private String statisticalDistributionOfJudgments(){
-        int [] results = new int[12];
 
-        for(Judgment judgment : judgmentList){
-            switch (judgment.getMonth()) {
-                case JANUARY: results[0]++;
-                    break;
-                case FEBRUARY: results[1]++;
-                    break;
-                case MARCH: results[2]++;
-                    break;
-                case APRIL: results[3]++;
-                    break;
-                case MAY: results[4]++;
-                    break;
-                case JUNE: results[5]++;
-                    break;
-                case JULY: results[6]++;
-                    break;
-                case AUGUST: results[7]++;
-                    break;
-                case SEPTEMBER: results[8]++;
-                    break;
-                case OCTOBER: results[9]++;
-                    break;
-                case NOVEMBER: results[10]++;
-                    break;
-                case DECEMBER: results[11]++;
-                    break;
-            }
+    private String statisticalDistributionOfJudgments() {
+        int[] results = new int[12];
+
+        for (Judgment judgment : judgmentList) {
+            results[judgment.getMonth().getValue() - 1]++;
         }
-            StringBuilder result = new StringBuilder();
-            Month months;
-            for(int i = 0; i < 12; i++)
-                result.append(Month.of(i+1) + "  " + results[i] + "<br>");
-            return result.toString();
+        StringBuilder result = new StringBuilder();
+        Month months;
+        for (int i = 0; i < 12; i++)
+            result.append(Month.of(i + 1) + "  " + results[i] + "<br>");
+        return result.toString();
     }
 
-    private String getJudgment(long signature) {
+    private String getJudgment(String signature) {
         if (judgmentMap.containsKey(signature)) {
 
             StringBuilder str = new StringBuilder();
@@ -104,58 +47,100 @@ public class Command {
             Judgment judgment = judgmentMap.get(signature);
 
 
-            str.append("Signature: " + judgment.id);
+            str.append("Signature: " + judgment.getSignature());
 
-            str.append("\nDate: " + judgment.judgmentDate);
+            str.append("<br>Date: " + judgment.judgmentDate);
 
-            str.append("\nCourt Type: " + judgment.courtType);
+            str.append("<br>Court Type: " + judgment.courtType);
 
-            str.append("\nJudges: \n");
+            str.append("<br>Judges: <br>");
 
             for (JudgeInCase judge : judgment.judges) {
                 str.append(judge.getName() + '\t');
-                if (judge.getFunction()!= null)
-                    str.append('\t' + judge.getFunction() + '\n');
-                else
-                    str.append('\n');
+
+                if (judge.getFunction() != null)
+                    str.append(judge.getFunction());
+
+                str.append("<br>");
             }
-            return str.toString();
+            return str.toString() + "<br>";
         }
-        return "Brak orzeczenia o sygnaturze: " + signature;
-    } /**** zmienić obłusge ID na obsługę sygnatury caseNb */
-
-    private String nbOfSentences(String name){
-        return judgesMap.containsKey(name) ? Integer.toString(judgesMap.get(name).getNbOfCases()) : "Brak takiego sędziego.";
+        return "Brak orzeczenia o sygnaturze: " + signature + "<br><br>";
     }
 
-    private String get10BestJudges(){
-        StringBuilder str = new StringBuilder();
-        Judge judge;
-        for(int i = 0;i<10;i++) {
-            judge = judgeList.get(i);
-            str.append("<b>" + judge.getName() + "</b>    " + judge.getNbOfCases() + "<br>");
+    private String nbOfSentences(String name) {
+        int result = 0;
+        for (Judgment element : judgmentList) {
+            if (element.containsJudge(name))
+                result++;
         }
-        return str.toString();
+        return result > 0 ? Integer.toString(result) : "Brak sędziego: " + name;
     }
 
-    public String realize(Scanner input){
-        switch(input.next()){
-            case "judgment":
-                return getJudgment(input.nextInt());
-            case "substantion" :  // uzasadnienie sprawy
-                return substantiation(input.nextInt());
-            case "nbOfSentences": {
-                StringBuilder str = new StringBuilder(input.next());
-                while(input.hasNext()) {
-                    str.append(" ");
-                    str.append(input.next());
+
+    private String get10BestJudges() {
+        List<Judge> judgeList = new LinkedList<>();
+        boolean find = false;
+
+        for (Judgment element : judgmentList) {
+            for (JudgeInCase judgeInCase : element.judges) {
+                find = false;
+                for (Judge judge : judgeList) {
+                    if (judge.getName().equals(judgeInCase.getName())) {
+                        judge.addCase();
+                        find = true;
+                        break;
+                    }
                 }
-                return nbOfSentences(str.toString());
+                if (!find) {
+                    Judge judgeToAdd = new Judge(judgeInCase.getName());
+                    judgeList.add(judgeToAdd);
+                }
             }
-            case "bestJudges":{
+        }
+        judgeList.sort(new Comparator<Judge>() {
+            @Override
+            public int compare(Judge o1, Judge o2) {
+                if (o1.getNbOfCases() < o2.getNbOfCases())
+                    return 1;
+                if (o1.getNbOfCases() > o2.getNbOfCases())
+                    return -1;
+                else return 0;
+            }
+        });
+        StringBuilder result = new StringBuilder();
+        Judge judge;
+        for (int i = 0; i < 10; i++) {
+            judge = judgeList.get(i);
+            result.append(judge.getName() + " " + judge.getNbOfCases() + "<br>");
+        }
+        return result.toString();
+    }
+
+    public String realize(Scanner input) {
+        switch (input.next()) {
+            case "judgment": {
+                input.useDelimiter("'");
+                StringBuilder str = new StringBuilder();
+                while (input.hasNext()) {
+                    String s = input.next();
+                    if (!s.replaceAll(" ", "").isEmpty()) {
+                        str.append(getJudgment(s));
+                    }
+                }
+                return str.toString();
+            }
+            case "substantion":
+                return substantiation(input.next());
+            case "nb": {
+                input.useDelimiter("'");
+                System.out.println(input.next());
+                return nbOfSentences(input.next());
+            }
+            case "bestJudges": {
                 return get10BestJudges();
             }
-            case "statistical":{
+            case "statistical": {
                 return statisticalDistributionOfJudgments();
             }
         }
