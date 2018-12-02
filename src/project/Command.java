@@ -10,23 +10,77 @@ public class Command {
 
     private Map<String, Judgment> judgmentMap = new HashMap<>();
 
-    /**
-     * Dodac funcke która obliczy które ustawy były kiedy używane
-     */
-
 
     public Command() {
         for (Judgment element : judgmentList)
             judgmentMap.put(element.getSignature(), element);
     }
 
+    private String bestRegulations(){
+        Map<Integer, Regulation> regulationMap = new HashMap<>();
+        List<Regulation> regulationList = new LinkedList<>();
+        for(Judgment judgment : judgmentList){
+            for(Regulation regulation : judgment.referencedRegulations){
+                if(regulationMap.containsKey(regulation.hashCode()))
+                    regulationMap.get(regulation.hashCode()).add();
+                else{
+                    regulationList.add(regulation);
+                    regulationMap.put(regulation.hashCode(), regulation);
+                    regulation.add();
+                }
+            }
+        }
+        regulationList.sort(new Comparator<Regulation>() {
+            @Override
+            public int compare(Regulation o1, Regulation o2) {
+                if(o1.getOccursNb() < o2.getOccursNb())
+                    return 1;
+                if(o1.getOccursNb() > o2.getOccursNb())
+                    return -1;
+                else return 0;
+            }
+        });
+        StringBuilder result = new StringBuilder();
+        Judge judge;
+        for (int i = 0; i < 10; i++) {
+            Regulation regulation = regulationList.get(i);
+            result.append(i+1 + ". " + regulation.toString() + "<br>Powtórzenia: " + regulation.getOccursNb() + "<br><br>");
+        }
+        return result.toString();
+    }
+    private String avgJudge(){
+        double judgesNb = 0;
+        for(Judgment judgment : judgmentList)
+            judgesNb+=judgment.judges.size();
+
+        return Double.toString(judgesNb/judgmentList.size());
+    }
 
     private String substantiation(String signature) {
         return judgmentMap.containsKey(signature) ? judgmentMap.get(signature).textContent :
                 "Brak orzeczenia o sygnaturze: " + signature;
     }
 
-    private String statisticalDistributionOfJudgments() {
+    private String typeStats(){
+        Map <String, CourtType> types = new HashMap<>();
+        LinkedList<CourtType> typesList = new LinkedList<>();
+        for(Judgment judgment : judgmentList){
+            if(types.containsKey(judgment.courtType))
+                types.get(judgment.courtType).add();
+            else {
+                CourtType courtType = new CourtType(judgment.courtType);
+                types.put(judgment.courtType, courtType);
+                typesList.add(courtType);
+            }
+        }
+        StringBuilder str = new StringBuilder();
+        for(CourtType court : typesList){
+            str.append(court.getCourtType() + " " + court.getNb() + "<br>");
+        }
+        return str.toString();
+    }
+
+    private String monthStats() {
         int[] results = new int[12];
 
         for (Judgment judgment : judgmentList) {
@@ -77,7 +131,6 @@ public class Command {
         return result > 0 ? Integer.toString(result) : "Brak sędziego: " + name;
     }
 
-
     private String get10BestJudges() {
         List<Judge> judgeList = new LinkedList<>();
         boolean find = false;
@@ -119,6 +172,9 @@ public class Command {
 
     public String realize(Scanner input) {
         switch (input.next()) {
+
+            // wyswietlanie kilku (rowniez jednego) rubrum orzeczenia
+
             case "judgment": {
                 input.useDelimiter("'");
                 StringBuilder str = new StringBuilder();
@@ -130,21 +186,54 @@ public class Command {
                 }
                 return str.toString();
             }
-            case "substantion":
-                return substantiation(input.next());
-            case "nb": {
-                input.useDelimiter("'");
-                System.out.println(input.next());
-                return nbOfSentences(input.next());
+
+            // uzasadnienie orzeczenia
+
+            case "sbs": {
+                if(input.hasNext())
+                    return substantiation(input.nextLine().trim());
+                return "";
             }
-            case "bestJudges": {
+
+            // liczba orzeczeń dla wybranego sędziego
+
+            case "nb": {
+                if (input.hasNext())
+                    return nbOfSentences(input.nextLine().trim());
+                return "";
+            }
+
+            // 10 sędziów którzy wydali największa liczbę orzeczeń
+
+            case "bestj": {
                 return get10BestJudges();
             }
-            case "statistical": {
-                return statisticalDistributionOfJudgments();
+
+            // ilosc wyrokow w zależności od miesiąca
+
+            case "monthstats": {
+                return monthStats();
             }
+
+            // ilosc wyrokow w zależności od rodzaju sądu
+
+            case "typestats": {
+                return typeStats();
+            }
+
+            // srednia ilosc sedziego na orzeczenie
+
+            case "avgjudge" :{
+                return avgJudge();
+            }
+
+            //wyświetlanie najlepszych ustaw
+
+            case "bestr" :{
+                return bestRegulations();
+            }
+
         }
         return "";
     }
-
 }

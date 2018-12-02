@@ -46,7 +46,6 @@ public class Judgment {
             return (int)id;
         }
 
-
         @Override
         public boolean equals(Object other){
             if(other == this)
@@ -62,7 +61,7 @@ public class Judgment {
 
         public boolean containsJudge(String name){
             for(JudgeInCase judge : judges)
-                if(judge.equals(name))
+                if(judge.getName().equals(name))
                     return true;
             return false;
         }
