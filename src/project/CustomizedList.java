@@ -14,7 +14,7 @@ public class CustomizedList {
     private List<String> list = new LinkedList<>();
     private int index = -1;
     private Command commands = new Command();
-    List<Judgment> judgmentList = new ReadFiles().read();
+    List<Judgment> judgmentList = new ReadFiles().read("X");  /// zmienic to !
 
 
     public String arrowUp() {

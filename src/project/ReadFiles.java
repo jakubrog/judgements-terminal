@@ -16,7 +16,7 @@ public class ReadFiles {
             "judgments-1338.json", "judgments-1912.json"
     };
 
-    List<Judgment> read(){
+    List<Judgment> read(String path){   /// dodać wczytywanie tych plikow ze względu na wszystko
         Items result = new Items();
         result.items = new LinkedList<>();
 
