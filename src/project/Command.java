@@ -5,7 +5,6 @@ import project.Commands.*;
 
 import java.util.*;
 
-
 public class Command {
     private List<Judgment> judgmentList;
 
@@ -17,20 +16,10 @@ public class Command {
                  judgmentMap.put(element.getSignature(), element);
     }
 
-    private String avgJudge(){
-        double judgesNb = 0;
-
-        for(Judgment judgment : judgmentList)
-            judgesNb+=judgment.judges.size();
-
-        return Double.toString(judgesNb/judgmentList.size());
-    }
 
     public String realize(Scanner input) {
+        if(judgmentList != null)
         switch (input.next()) {
-
-            // wyswietlanie kilku (rowniez jednego) rubrum orzeczenia
-
             case "judgment": {
                 input.useDelimiter("\"");
                 StringBuilder str = new StringBuilder();
@@ -42,49 +31,29 @@ public class Command {
                 }
                 return str.toString();
             }
-
-            // uzasadnienie orzeczenia
-
             case "sbs": {
                 if(input.hasNext())
                     return new ContentCommand().substantiation(input.nextLine().trim(), judgmentMap);
                 return "";
             }
-
-            // liczba orzeczeń dla wybranego sędziego
-
             case "nb": {
                 if (input.hasNext())
                     return new JudgeCommand().nbOfSentences(input.next(), judgmentList);
                 return "";
             }
-
-            // 10 sędziów którzy wydali największa liczbę orzeczeń
-
             case "bestj": {
                 return new JudgesCommand().get10BestJudges(judgmentList);
             }
-
-            // ilosc wyrokow w zależności od miesiąca
-
             case "monthstats": {
                 return new MonthsCommand().monthStats(judgmentList);
             }
-
-            // ilosc wyrokow w zależności od rodzaju sądu
-
             case "typestats": {
                 return new CourtsCommand().typeStats(judgmentList);
             }
-
-            // srednia ilosc sedziego na orzeczenie
-
-            case "avgjudge" :{
-                return avgJudge();
+            case "jury" :{
+                if (input.hasNextInt())
+                     return new JuryCommand().jury(input.nextInt(), judgmentList);
             }
-
-            //wyświetlanie najlepszych ustaw
-
             case "bestr" :{
                 return new RegulationsCommand().bestRegulations(judgmentList);
             }

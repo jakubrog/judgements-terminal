@@ -14,7 +14,8 @@ public class CustomizedList {
     private List<String> list = new LinkedList<>();
     private int index = -1;
     private Command commands = new Command();
-    List<Judgment> judgmentList = new ReadFiles().read("X");  /// zmienic to !
+    private List<Judgment> judgmentList;  /// dodać obsługe wyjatku przy ladowaniu plik gdy ktoś poda ścieżkę
+
 
 
     public String arrowUp() {

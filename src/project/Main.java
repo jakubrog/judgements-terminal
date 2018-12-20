@@ -5,6 +5,9 @@ package project;
 
 // sygnatura to caseNumber
 
+
+import java.io.IOException;
+import java.nio.file.*;
 /*****
  * zmienić wczytywanie plików aby program działał z komendą wczytaj pliki i wczystywał wszytskie pliki z podanego katalogu
  * dodać nowe funkcjonalności ze strony
@@ -14,15 +17,16 @@ package project;
 public class Main{
 
         public static void main(String[] args) {
-
-            String arg = "dasdkjasj";
-            String arg1 = "d<s;dakj/>asj";
-
-            arg1 = arg1.replaceAll("<[^/>]*", "").replaceAll("/>", ""); //// ignorowanie tagów html
-            System.out.println(arg);
-            System.out.println(arg1);
-
-            //MyGUIForm g = new MyGUIForm();
+            //try{
+            System.out.print(Files.exists(Paths.get("/home/jakubrog/Documents")));
+           //MyGUIForm g = new MyGUIForm();
+            try{
+                Files.walk(Paths.get("/home/jakubrog/Documents"))
+                        .filter(Files::isRegularFile)
+                        .forEach(System.out::println);
+            } catch(IOException x){
+                System.out.print(x);
+            }
 
         }
 }
