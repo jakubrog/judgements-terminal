@@ -1,5 +1,5 @@
-package project;
-import java.util.Scanner;
+package project.judgement;
+
 public class Regulation {
 
 
@@ -20,16 +20,16 @@ public class Regulation {
 
     @Override
     public int hashCode() {
-        return (int) this.journalYear * 100 + (int) journalNo;
+        return this.toString().hashCode();
     }
 
     @Override
     public boolean equals(Object other) {
         if (this == other)
             return true;
-        if (!(other instanceof project.Regulation))
+        if (!(other instanceof Regulation))
             return false;
-        project.Regulation that = (project.Regulation) other;
+        Regulation that = (Regulation) other;
 
         return this.journalNo == that.journalNo && this.journalYear == that.journalYear
                 && this.journalEntry == that.journalEntry;
@@ -37,7 +37,9 @@ public class Regulation {
     @Override
     public String toString(){
         String s = text;
-        return s.substring(0, s.indexOf("("));
+        if(s.indexOf("(") > 0)
+            return s.substring(0, s.indexOf("("));
+        return s;
     }
 
 }

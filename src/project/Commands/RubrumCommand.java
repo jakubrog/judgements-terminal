@@ -1,9 +1,8 @@
 package project.Commands;
 
-import project.JudgeInCase;
-import project.Judgment;
+import project.judgement.JudgeInCase;
+import project.judgement.Judgment;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**

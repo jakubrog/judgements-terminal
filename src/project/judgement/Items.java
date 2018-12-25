@@ -1,7 +1,7 @@
-package project;
+package project.judgement;
 
-import java.util.ArrayList;
-import java.util.Collection;
+import project.judgement.Judgment;
+
 import java.util.LinkedList;
 import java.util.List;
 

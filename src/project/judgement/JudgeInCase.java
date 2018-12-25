@@ -1,9 +1,11 @@
-package project;
+package project.judgement;
+
+import project.Judge;
 
 public class JudgeInCase {
-        private String name;
-        private String function;
-        private  String [] specialRoles;
+        public String name;
+        public String function;
+        public  String [] specialRoles;
 
 
         @Override

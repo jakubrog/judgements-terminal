@@ -1,6 +1,8 @@
 package project;
 
 
+import project.judgement.JudgeInCase;
+
 public class Judge {
     private String name;
     private int nbOfCases = 1;
@@ -29,4 +31,5 @@ public class Judge {
     public String getName() {
         return name;
     }
+
 }

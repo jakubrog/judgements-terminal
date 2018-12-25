@@ -1,10 +1,11 @@
 package project.Commands;
 
 import project.Judge;
-import project.JudgeInCase;
-import project.Judgment;
+import project.judgement.JudgeInCase;
+import project.judgement.Judgment;
 
 import java.util.Comparator;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -13,11 +14,12 @@ import java.util.List;
  */
 public class JudgesCommand {
 
-    public  String get10BestJudges(List<Judgment> judgmentList) {
+    public  String get10BestJudges(LinkedHashSet<Judgment> judgmentList) {
         List<Judge> judgeList = new LinkedList<>();
         boolean find = false;
 
         for (Judgment element : judgmentList) {
+            if(element.judges != null )
             for (JudgeInCase judgeInCase : element.judges) {
                 find = false;
                 for (Judge judge : judgeList) {
@@ -45,7 +47,7 @@ public class JudgesCommand {
         });
         StringBuilder result = new StringBuilder();
         Judge judge;
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10 && i < judgeList.size(); i++) {
             judge = judgeList.get(i);
             result.append(judge.getName() + " " + judge.getNbOfCases() + "<br>");
         }

@@ -1,15 +1,15 @@
 package project.Commands;
 
-import project.Judgment;
+import project.judgement.Judgment;
 
 import java.time.Month;
-import java.util.List;
+import java.util.LinkedHashSet;
 
 /**
  * Created by student18 on 2018-12-10.
  */
 public class MonthsCommand {
-    public  String monthStats(List<Judgment> judgmentList) {
+    public  String monthStats(LinkedHashSet<Judgment> judgmentList) {
         int[] results = new int[12];
 
         for (Judgment judgment : judgmentList) {

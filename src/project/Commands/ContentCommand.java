@@ -1,6 +1,6 @@
 package project.Commands;
 
-import project.Judgment;
+import project.judgement.Judgment;
 
 import java.util.Map;
 

@@ -1,14 +1,14 @@
 package project.Commands;
 
-import project.Judgment;
+import project.judgement.Judgment;
 
-import java.util.List;
+import java.util.LinkedHashSet;
 
 /**
  * Created by student18 on 2018-12-10.
  */
 public class JudgeCommand {
-    public  String nbOfSentences(String name,List<Judgment> judgmentList) {
+    public  String nbOfSentences(String name,LinkedHashSet<Judgment> judgmentList) {
         int result = 0;
         for (Judgment element : judgmentList) {
             if (element.containsJudge(name))

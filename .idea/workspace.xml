@@ -2,30 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21b0b43-0fab-4990-ab2f-5d68dda47518" name="Default Changelist" comment="structure update">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/Commands/CommandNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/ContentCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/ContentCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/CourtsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/CourtsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgeCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JuryCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JuryCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/MonthsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/MonthsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RubrumCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RubrumCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CourtCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CourtType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/CourtType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CustomizedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/CustomizedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Judge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Judge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/JudgeInCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Judgment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/ReadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/ReadFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Regulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/po_projekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/po_projekt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/ContentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/ContentCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/JudgesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/JudgesCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/RubrumCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/RubrumCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/CourtCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/CourtCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/CourtType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/CourtType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/CustomizedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/CustomizedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Judge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/JudgeInCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/JudgeInCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Judgment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/Judgment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/MyFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/MyGUIForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/MyGUIForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/ReadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/ReadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Regulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/Regulation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,46 +61,71 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2057021307">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="form" value="4" />
-          <entry key="java" value="20" />
+          <entry key="class" value="3" />
+          <entry key="form" value="5" />
+          <entry key="java" value="121" />
           <entry key="json" value="5" />
+          <entry key="log" value="1" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="GUI_DESIGNER_FORM" value="4" />
-          <entry key="JAVA" value="20" />
+          <entry key="CLASS" value="3" />
+          <entry key="GUI_DESIGNER_FORM" value="5" />
+          <entry key="JAVA" value="121" />
           <entry key="JSON" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7696" />
+          <entry key="java" value="15513" />
           <entry key="json" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7696" />
+          <entry key="JAVA" value="15513" />
           <entry key="JSON" value="6" />
         </counts>
       </usages-collector>
@@ -183,11 +232,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="-100">
+              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,10 +245,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/Regulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/Commands/JuryCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/Judgment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/Commands/RubrumCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+            <state relative-caret-position="126">
+              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,13 +309,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgesCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/JudgeInCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/Items.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/CourtCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -235,6 +351,7 @@
       <find>courtCases</find>
       <find>Date</find>
       <find>judges</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -248,13 +365,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" />
-        <option value="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" />
-        <option value="$PROJECT_DIR$/src/project/Command.java" />
-        <option value="$PROJECT_DIR$/src/project/Main.java" />
         <option value="$PROJECT_DIR$/src/project/Items.java" />
-        <option value="$PROJECT_DIR$/src/project/ReadFiles.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/JudgeInCase.java" />
+        <option value="$PROJECT_DIR$/src/project/Judgment.java" />
+        <option value="$PROJECT_DIR$/src/project/Judge.java" />
+        <option value="$PROJECT_DIR$/src/project/CourtCases.java" />
+        <option value="$PROJECT_DIR$/src/project/Regulation.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/Kolor.java" />
+        <option value="$PROJECT_DIR$/src/project/judgement/CourtCases.java" />
+        <option value="$PROJECT_DIR$/src/project/MyGUIForm.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/CommandNames.java" />
+        <option value="$PROJECT_DIR$/src/project/judgement/Regulation.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/JudgesCommand.java" />
         <option value="$PROJECT_DIR$/src/project/CustomizedList.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" />
+        <option value="$PROJECT_DIR$/src/project/ReadFiles.java" />
+        <option value="$PROJECT_DIR$/src/project/CourtType.java" />
+        <option value="$PROJECT_DIR$/src/project/Main.java" />
+        <option value="$PROJECT_DIR$/src/project/Command.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/judgement/Judgment.java" />
       </list>
     </option>
   </component>
@@ -265,9 +399,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="551" />
     <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="789" />
+    <option name="width" value="1369" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -277,43 +412,56 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="Commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="MyGUIForm" type="e9f4de52:FormNode" />
+              <item name="judgement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -323,7 +471,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545073644711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545731589390" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -332,10 +480,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -432,7 +581,7 @@
       <module name="po_projekt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project.*" />
+          <option name="PATTERN" value="project.judgement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,46 +648,97 @@
       <workItem from="1543738037685" duration="3644000" />
       <workItem from="1543759999171" duration="4690000" />
       <workItem from="1545068035021" duration="5611000" />
+      <workItem from="1545301321344" duration="874000" />
+      <workItem from="1545305479667" duration="1130000" />
+      <workItem from="1545306934705" duration="1626000" />
+      <workItem from="1545554220692" duration="6751000" />
+      <workItem from="1545640272636" duration="5116000" />
+      <workItem from="1545656412013" duration="7916000" />
+      <workItem from="1545726032660" duration="5546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31974000" />
+    <option name="totallyTimeSpent" value="60933000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15581644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2230523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" weight="0.3294979" />
       <window_info id="Palette&#9;" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32896176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3147541" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32994923" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896176" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32896176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" weight="0.3294979" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32977587" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33671293" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="2" weight="0.3294979" />
+      <window_info id="Palette&#9;" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32896176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3147541" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896176" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32896176" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" weight="0.3294979" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32977587" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -566,75 +766,107 @@
     <entry file="file://$PROJECT_DIR$/judgments-995.json" />
     <entry file="file://$PROJECT_DIR$/judgments-356.json" />
     <entry file="file://$PROJECT_DIR$/judgments-520.json" />
-    <entry file="file://$PROJECT_DIR$/src/project/CourtCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/JudgeInCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/CourtType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/judgments-348.json" />
-    <entry file="file://$PROJECT_DIR$/src/project/Regulation.java">
+    <entry file="file://$PROJECT_DIR$/511DBF24E4.html" />
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk/jre/lib/rt.jar!/java/awt/Component.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Judgment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/RubrumCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="186">
+          <caret line="2488" selection-start-line="2488" selection-end-line="2488" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/511DBF24E4.html" />
+    <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/Kolor.java" />
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk/jre/lib/rt.jar!/java/util/function/Consumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid12486.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/ContentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/CommandNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/SaveToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/MonthsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/CourtType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Commands/CourtsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="400">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,35 +875,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/ContentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="140">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Items.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="280">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -680,70 +892,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        <state relative-caret-position="126">
+          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/MonthsCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Commands/JuryCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="-100">
+          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/judgement/Regulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/judgement/JudgeInCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/judgement/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/judgement/CourtCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/RubrumCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/judgement/Judgment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,7 +1013,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Erlang 17</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -812,7 +1037,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.google.code.gson:gson:2.8.5</last-edited>
+          <last-edited>org.jsoup:jsoup:1.11.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

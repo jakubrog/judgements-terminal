@@ -1,9 +1,8 @@
 package project;
 
 
-import sun.util.resources.cldr.so.CurrencyNames_so;
+import project.judgement.Judgment;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,7 +13,7 @@ public class CustomizedList {
     private List<String> list = new LinkedList<>();
     private int index = -1;
     private Command commands = new Command();
-    private List<Judgment> judgmentList;  /// dodać obsługe wyjatku przy ladowaniu plik gdy ktoś poda ścieżkę
+    private List<Judgment> judgmentList;
 
 
 
@@ -44,7 +43,7 @@ public class CustomizedList {
             Scanner scanner = new Scanner(arg);
             scanner.useDelimiter(" ");
 
-            return commands.realize(scanner);
+            return commands.realizeWithSave(scanner);
         }
         return "";
     }

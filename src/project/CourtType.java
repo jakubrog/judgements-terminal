@@ -1,22 +1,11 @@
 package project;
 
-public class CourtType {
-    private String courtType;
-    private int nb = 0;
-
-    public CourtType(String name){
-        courtType = name;
-        nb++;
-    }
-    public void add(){
-        nb++;
-    }
-
-    public String getCourtType() {
-        return courtType;
-    }
-
-    public int getNb() {
-        return nb;
-    }
+public  enum CourtType{
+     COMMON,
+     CONSTITUTIONAL_TRIBUNAL,
+     SUPREME,
+     NATIONAL_APPEAL_CHAMBER,
+     PROVINCIAL_ADMINISTARTIVE_COURT,
+     SUPREME_ADMINISTARTIVE_COURT;
 }
+
