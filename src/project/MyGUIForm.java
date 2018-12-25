@@ -1,5 +1,7 @@
 package project;
 
+import project.Commands.ShowHelpMenu;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -21,7 +23,7 @@ public class MyGUIForm extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         resultArea.setContentType("text/html");
         resultArea.setEditable(false);
-
+        resultArea.setText(new ShowHelpMenu().helpMenu());
         commandField.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent e) {

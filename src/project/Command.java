@@ -16,6 +16,8 @@ public class Command {
 
     private SaveToFile saveToFile;
 
+    private ShowHelpMenu menu = new ShowHelpMenu();
+
 
 
     private String updateJudgments(Scanner input) {
@@ -25,11 +27,11 @@ public class Command {
                 if (!judgmentMap.containsKey(element.getSignature())) {
                     judgmentMap.put(element.getSignature(), element);
                 }
-        } catch (IOException e) {
-            return "Błąd odzcytu plików<br>";
+        } catch (Exception p){
+            return "Files did not loaded correctly, check path or try <i>help</i> for more information.<br>";
         }
 
-        return "Sukces";
+        return "Files successfully loaded.";
     }
 
 
@@ -55,7 +57,7 @@ public class Command {
                 case "judge": {
                     if (input.hasNext())
                         return new JudgeCommand().nbOfSentences(input.next(), judgmentList);
-                    return "";
+                    return "Argument was not detected, try <i> judge JUDGE NAME </i>";
                 }
                 case "judges": {
                     return new JudgesCommand().get10BestJudges(judgmentList);
@@ -69,7 +71,7 @@ public class Command {
                 case "jury": {
                     if (input.hasNextInt())
                         return new JuryCommand().jury(input.nextInt(), judgmentList);
-                    return "";
+                    return "Correct argument was not detected, try <i>jury INTEGER</i> or type <i>help</i> for more information.";
                 }
                 case "regulations": {
                     return new RegulationsCommand().bestRegulations(judgmentList);
@@ -77,23 +79,33 @@ public class Command {
                 case "load": {
                     if (input.hasNext())
                         return updateJudgments(input);
-                    return "";
+                    return "Path was not detected.";
                 }
                 case "save": {
                     if(input.hasNext()) {
                         saveToFile = new SaveToFile();
                         readyToSave = saveToFile.addWriter(input.next());
                     }
-                    return readyToSave ? "Sukces" : "Błędna ścieżka do pliku";
+                    return readyToSave ? "File to save results was correctly added." : "Incorrect file path.";
+                }
+                case "help":{
+                    return menu.helpMenu();
                 }
             }
-        }
-        if (input.hasNext() && input.next().equals("load")) {
-            if (input.hasNext())
+        } else if (input.hasNext()) {
+            String command = input.next();
+            if(command.equals("load") && input.hasNext())
                 return updateJudgments(input);
+            if(command.equals("help"))
+                return menu.helpMenu();
+            else
+                return
+                    "Something went wrong, try to load your data files correctly or type <i>help</i> to " +
+                            "get more information.";
         }
         return "";
     }
+
 
     public String realizeWithSave(Scanner input){
         String result = realize(input);

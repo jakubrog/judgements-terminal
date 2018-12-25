@@ -17,7 +17,7 @@ public class SaveToFile {
             file = new File(path);
             file.getParentFile().mkdirs();
             writer = new FileWriter(file);
-        }catch(IOException e){
+        }catch(Exception e){
             return false;
         }
         return true;
@@ -29,10 +29,8 @@ public class SaveToFile {
             writer = new FileWriter(file, true);
             writer.write(argument);
             writer.close();
-        }catch(IOException e){
-            System.out.print("blad zapisu");
-        }catch(NullPointerException x) {
-            System.out.print("blad zapisu");
+        }catch(Exception e){
+            System.out.print("Error in writing result to file.");
         }
 
     }

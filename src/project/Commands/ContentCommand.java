@@ -10,7 +10,7 @@ import java.util.Map;
 public class ContentCommand {
     public String substantiation(String signature, Map<String, Judgment> judgmentMap) {
         return judgmentMap.containsKey(signature) ? judgmentMap.get(signature).textContent :
-                "Brak orzeczenia o sygnaturze: " + signature;
+                "Cannot find signature:  " + signature;
     }
 
 }

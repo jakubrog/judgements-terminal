@@ -1,0 +1,15 @@
+<h1>Help</h1>
+<h2>Available commands:</h2>
+<ul>
+<li><strong>load "PATH TO DATA"</strong> - enables reading the files from the given directory. Requires the whole path specification, example:<br /> for Windows:<em>load C://users/user/Documents/Data</em><br /> for Linux: <em>load /home/username/Documents/Data</em><br /><br> Loading might take a while, please wait patiently.</li><br>
+<li><strong>save "PATH TO FILE"</strong> - enables saving to the file, which is specified by the path, example: <em>save /home/username/Documents/results.txt</em>. If file specified by the path does not exist, it will be generated. </li><br>
+<li><strong>rubrum '"SIGNATURE"' {"SIGNATURE"}</strong> - enables displaying metrics of judgement with given signature/s. The given signature/s must be included between double quotation sign ", exmaple: <em>rubrum "I ACa 145/13" "V Pa 51/13"</em></li><br>
+<li><strong>content "SIGNATURE"</strong> - enables displaying justification of the sentence with a given signature, example : <em>content I ACa 145/13</em></li><br>
+<li><strong>judge "FULL NAME"</strong> - enables displaying the number of trials participated by a certain judge, example: <i>judge Anna Maria Wesołowska</i></li><br>
+<li><strong>judges</strong> - displays the 10 judges who most frequently attended the trails, and specifies the number of trials for each judge</li><br>
+<li><strong>months</strong> -statistical composition of sentences with reference to months</li><br>
+<li><strong>courts</strong> -statistical composition of sentences with reference to type of court</li><br>
+<li><strong>regulations</strong> - displays 10 most frequently referred regulations</li><br><
+<li><strong>jury "INTEGER"</strong> -amount of sentences participated by a given number of judges, example: <i>jury 1</i></li><br>
+ <li><strong>help</strong> - return to this help menu</li><br>
+</ul>

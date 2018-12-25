@@ -8,7 +8,7 @@ import java.util.LinkedHashSet;
 /**
  * Created by student18 on 2018-12-10.
  */
-public class CourtsCommand { /// TODO: fix this with courtType
+public class CourtsCommand {
 
     public String typeStats(LinkedHashSet<Judgment> judgmentList){
 
@@ -20,7 +20,7 @@ public class CourtsCommand { /// TODO: fix this with courtType
         }
         StringBuilder str = new StringBuilder();
         for(CourtType court : CourtType.values()){
-            str.append(court + " " + result[court.ordinal()] + "<br>");
+            str.append("<b>" + court.toString() + "</b> -  " + result[court.ordinal()] + "<br>");
         }
         return str.toString();
     }

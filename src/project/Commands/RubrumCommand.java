@@ -18,13 +18,13 @@ public class RubrumCommand {
             Judgment judgment = judgmentMap.get(signature);
 
 
-            str.append("Signature: " + judgment.getSignature());
+            str.append("<b>Signature:</b> " + judgment.getSignature());
 
-            str.append("<br>Date: " + judgment.judgmentDate);
+            str.append("<b><br>Date:</b>  " + judgment.judgmentDate);
 
-            str.append("<br>Court Type: " + judgment.courtType);
+            str.append("<b><br>Court Type:</b>  " + judgment.courtType);
 
-            str.append("<br>Judges: <br>");
+            str.append("<b><br>Judges: <br></b> ");
 
             for (JudgeInCase judge : judgment.judges) {
                 str.append(judge.getName() + '\t');
@@ -36,7 +36,7 @@ public class RubrumCommand {
             }
             return str.toString() + "<br>";
         }
-        return "Brak orzeczenia o sygnaturze: " + signature + "<br><br>";
+        return "Cannot find signature: " + signature + "<br><br>";
     }
 
 }

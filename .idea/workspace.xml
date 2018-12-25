@@ -2,54 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21b0b43-0fab-4990-ab2f-5d68dda47518" name="Default Changelist" comment="structure update">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Commands/CommandNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/Commands/ShowHelpMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/CommandNames.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/ContentCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/ContentCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/CourtsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/CourtsCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgeCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JudgesCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JuryCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/JuryCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/MonthsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/MonthsCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RegulationsCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RubrumCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/RubrumCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CourtCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/SaveToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Commands/SaveToFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CourtType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/CourtType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/CustomizedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/CustomizedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Items.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Judge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Judge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/JudgeInCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Judgment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/MyGUIForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/ReadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/ReadFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/Regulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/po_projekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/po_projekt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/po_projekt/project/judgement/Judgment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/po_projekt/project/judgement/Judgment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/CommandNames.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Commands/ContentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/ContentCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Commands/JudgesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/JudgesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Commands/RubrumCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/RubrumCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/CourtCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/CourtCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/CourtType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/CourtType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/CustomizedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/CustomizedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Judge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/JudgeInCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/JudgeInCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Judgment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/Judgment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/MyGUIForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/MyGUIForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/ReadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/ReadFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Regulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/Regulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/judgement/CourtCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/judgement/CourtCases.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +60,7 @@
     <session id="-2057021307">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -90,18 +71,20 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="form" value="5" />
-          <entry key="java" value="121" />
+          <entry key="form" value="6" />
+          <entry key="help_menu" value="1" />
+          <entry key="java" value="148" />
           <entry key="json" value="5" />
           <entry key="log" value="1" />
           <entry key="sql" value="1" />
@@ -110,22 +93,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="GUI_DESIGNER_FORM" value="5" />
-          <entry key="JAVA" value="121" />
+          <entry key="GUI_DESIGNER_FORM" value="6" />
+          <entry key="JAVA" value="148" />
           <entry key="JSON" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15513" />
+          <entry key="java" value="17416" />
           <entry key="json" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15513" />
+          <entry key="JAVA" value="17416" />
           <entry key="JSON" value="6" />
         </counts>
       </usages-collector>
@@ -233,10 +216,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Command.java">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/Regulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="100">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/judgement/Judgment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,19 +242,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/judgement/Regulation.java">
+        <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Commands/JuryCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="60">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#788#1386#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,44 +257,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/judgement/Judgment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Commands/RubrumCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#82#83#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -313,6 +272,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+              <folding>
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -329,8 +294,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/judgement/CourtCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/help_menu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-240">
+              <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -366,7 +352,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/project/Items.java" />
-        <option value="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" />
         <option value="$PROJECT_DIR$/src/project/Commands/JuryCommand.java" />
         <option value="$PROJECT_DIR$/src/project/Commands/MonthsCommand.java" />
         <option value="$PROJECT_DIR$/src/project/JudgeInCase.java" />
@@ -375,20 +360,24 @@
         <option value="$PROJECT_DIR$/src/project/CourtCases.java" />
         <option value="$PROJECT_DIR$/src/project/Regulation.java" />
         <option value="$PROJECT_DIR$/src/project/Commands/Kolor.java" />
-        <option value="$PROJECT_DIR$/src/project/judgement/CourtCases.java" />
-        <option value="$PROJECT_DIR$/src/project/MyGUIForm.java" />
         <option value="$PROJECT_DIR$/src/project/Commands/CommandNames.java" />
         <option value="$PROJECT_DIR$/src/project/judgement/Regulation.java" />
-        <option value="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" />
         <option value="$PROJECT_DIR$/src/project/Commands/JudgesCommand.java" />
-        <option value="$PROJECT_DIR$/src/project/CustomizedList.java" />
-        <option value="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" />
-        <option value="$PROJECT_DIR$/src/project/ReadFiles.java" />
-        <option value="$PROJECT_DIR$/src/project/CourtType.java" />
-        <option value="$PROJECT_DIR$/src/project/Main.java" />
-        <option value="$PROJECT_DIR$/src/project/Command.java" />
-        <option value="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" />
         <option value="$PROJECT_DIR$/src/project/judgement/Judgment.java" />
+        <option value="$PROJECT_DIR$/src/project/MyGUIForm.java" />
+        <option value="$PROJECT_DIR$/src/project/Command.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/ShowHelpMenu.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/RubrumCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/SaveToFile.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/JudgeCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/ContentCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/CourtType.java" />
+        <option value="$PROJECT_DIR$/src/project/ReadFiles.java" />
+        <option value="$PROJECT_DIR$/src/project/Commands/CourtsCommand.java" />
+        <option value="$PROJECT_DIR$/src/project/CustomizedList.java" />
+        <option value="$PROJECT_DIR$/src/project/Main.java" />
+        <option value="$PROJECT_DIR$/src/project/judgement/CourtCases.java" />
       </list>
     </option>
   </component>
@@ -399,9 +388,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
+    <option name="x" value="960" />
     <option name="y" value="27" />
-    <option name="width" value="1369" />
+    <option name="width" value="960" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectReloadState">
@@ -412,12 +401,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
@@ -446,6 +441,13 @@
             </path>
             <path>
               <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="MyGUIForm" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="po_projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -461,7 +463,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -471,7 +472,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545731589390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545738979125" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -654,12 +655,13 @@
       <workItem from="1545554220692" duration="6751000" />
       <workItem from="1545640272636" duration="5116000" />
       <workItem from="1545656412013" duration="7916000" />
-      <workItem from="1545726032660" duration="5546000" />
+      <workItem from="1545726032660" duration="6249000" />
+      <workItem from="1545732559197" duration="5620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60933000" />
+    <option name="totallyTimeSpent" value="67256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,9 +674,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2230523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2860192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" weight="0.3294979" />
       <window_info id="Palette&#9;" order="3" />
@@ -683,7 +684,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32896176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -775,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Commands/Kolor.java" />
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk/jre/lib/rt.jar!/java/util/function/Consumer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -793,117 +784,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs_err_pid12486.log">
+    <entry file="file://$PROJECT_DIR$/hs_err_pid12486.log" />
+    <entry file="file://$PROJECT_DIR$/src/project/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/ContentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        <state relative-caret-position="240">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/CommandNames.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/ShowHelpMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="280">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Commands/SaveToFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/MonthsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/CourtType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/CourtsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -914,20 +825,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        <state relative-caret-position="-260">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/JudgeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/RegulationsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/CommandNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/RubrumCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/ContentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/CourtType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/MonthsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Commands/CourtsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/ReadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Judge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/CustomizedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/MyGUIForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#788#1386#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/judgement/Regulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="100">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/judgement/Judgment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -935,6 +967,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -947,29 +985,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/judgement/CourtCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Commands/RubrumCommand.java">
+    <entry file="file://$PROJECT_DIR$/help_menu">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/judgement/Judgment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

@@ -38,9 +38,9 @@ public class RegulationsCommand {
         });
         StringBuilder result = new StringBuilder();
         Judge judge;
-        for (int i = 0; i < 10 && i < regulationList.size(); i++) {
+        for (int i = 0; i < 10 && i < regulationList.size(); i++) {/// TODO: add description
             Regulation regulation = regulationList.get(i);
-            result.append(i + 1 + ". " + regulation.toString() + "<br>Powtórzenia: " + regulation.getOccursNb() + "<br><br>");
+            result.append(i + 1 + ". " + regulation.toString() + "<br><b><b> " + regulation.getOccursNb() + "<br><br>");
         }
         return result.toString();
     }

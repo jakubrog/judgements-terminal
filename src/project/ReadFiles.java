@@ -40,7 +40,7 @@ public class ReadFiles {
             } else if (getExtension(path.toString()).equals("html")) {
                 parseHTML(path.toString());
             }
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.print("Parsing error");
         }
     }
@@ -61,7 +61,7 @@ public class ReadFiles {
             FileReader reader = new FileReader(path);
             Items p = gson.fromJson(reader, Items.class);
             regulations.items.addAll(p.items);
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             System.out.println(path + " - file not found.");
         }
     }
@@ -120,8 +120,6 @@ public class ReadFiles {
                     judgment.referencedRegulations = new LinkedList<>();
                     int everyOther = 0;
                     while (true) {
-                        if (result.contains("Odrzucono"))
-                            System.out.println(path + " odrzucono");
                         Regulation regulation = new Regulation();
                         if (everyOther % 2 == 1) {
                             regulation.text = result;

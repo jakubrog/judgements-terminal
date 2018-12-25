@@ -14,7 +14,7 @@ public class JudgeCommand {
             if (element.containsJudge(name))
                 result++;
         }
-        return result > 0 ? Integer.toString(result) : "Brak sędziego: " + name;
+        return result > 0 ? Integer.toString(result) : "Can not fild " + name + " judge.";
     }
 
 }

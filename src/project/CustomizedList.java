@@ -30,6 +30,7 @@ public class CustomizedList {
             index++;
             return list.get(index);
         }
+        index = list.size();
         return "";
 
     }
